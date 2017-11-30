@@ -21,5 +21,6 @@ I actually want my nav UNDER my hero gif then sticky at the top when I scroll bu
 TECHNICAL NOTES
 body needs to be a flex container of columns for its children to stack (even though that's not what I want as an end result) and it needs to have a direction: column and justify-contents: space-between 
 
-footer need to be a flex container, justify-content: space-around
-each thing should be like a flex item
+footer needs to be a flex container, justify-content: space-around
+each thing should be like a flex item so I can space it nicely
+related: how to create those vertical separators?
