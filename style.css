@@ -8,6 +8,11 @@ body {
   /* min-width: 100%; */
 }
 
+footer {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
 main {
   min-width: 100%;
   display: flex;
@@ -21,4 +26,8 @@ main {
   background-position: center;
   /* background-size: */
   color: rgb(226, 226, 226);
+}
+
+nav {
+  display: inline-flex;
 }
