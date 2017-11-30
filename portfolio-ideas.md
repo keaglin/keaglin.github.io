@@ -24,3 +24,5 @@ body needs to be a flex container of columns for its children to stack (even tho
 footer needs to be a flex container, justify-content: space-around
 each thing should be like a flex item so I can space it nicely
 related: how to create those vertical separators?
+
+each section should fill the viewport
