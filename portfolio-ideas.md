@@ -14,3 +14,12 @@ portfolio things
 logo/branding ideas
 ~ is where the heart is
 ~/kevon
+
+I actually want my nav UNDER my hero gif then sticky at the top when I scroll but I don't know how to do that yet and I should totoally focus on base functionality for the moment
+
+
+TECHNICAL NOTES
+body needs to be a flex container of columns for its children to stack (even though that's not what I want as an end result) and it needs to have a direction: column and justify-contents: space-between 
+
+footer need to be a flex container
+each thing should be like a flex item
