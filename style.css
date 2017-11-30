@@ -1,21 +1,24 @@
 body {
   /* background-color: rgb(35, 185, 110); */
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  /* min-width: 100%; */
 }
 
 main {
+  min-width: 100%;
   display: flex;
   flex-direction: column;
-  flex-basis: content;
+  /* flex-basis: 100%; */
 }
 
 .hero {
+  /* max-width: 100%; */
   background: url(https://78.media.tumblr.com/5c825f938d00c69b2f5dfe6ea2e97453/tumblr_ooj5u2rpF11s32c21o1_500.gif);
   background-position: center;
   /* background-size: */
   color: rgb(226, 226, 226);
-
 }
