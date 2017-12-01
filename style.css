@@ -40,9 +40,9 @@ header {
   min-width: 100%;
 }
 
-nav {
+/* nav {
   align-self: flex-end;
-}
+} */
 
 .hero {
   /* max-width: 100%; */
@@ -106,7 +106,15 @@ ul {
 
 section.hero {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  
+  /* flex-direction: column; */
+  /* justify-content: flex-start; */
+  align-content: space-around;
+  /* background: rgba(0, 0, 0, 0.20); */
+}
+
+section.hero p {
+  min-height: 45px;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 15px 10px 0;
+  margin: 0;
 }

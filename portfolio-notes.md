@@ -36,7 +36,7 @@ sticky nav
     - header (which contains nav) is already a flex item and cannot be moved outside of that paradigm by other methods (align-self?)
   - may need a mix of positioning and flexboxing
   - want the width of the `li` to light up on hover
-  - want the height to be a bit taller 
+  - want the height to be like ~60px
 
 style a tags
   - want them to be uppercase
