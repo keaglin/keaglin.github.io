@@ -5,13 +5,13 @@ portfolio things
   - Where you want to go next
   - And who YOU really want to work with.
 
-10 tips
+Applicable tips from "10 tips" listicle
 1. start with eye candy/teaser (you got 50 milliseconds kid. make em count!) and brief, straightforward blurb about self in 1st person; be concise but friendly
 2. clear navigation (simple, consistent; maybe work/about/contact/blog)
 3. tell the story of who you are (share a pov on something, current level of expertise, achievements, where you're from, personal trivia)
-4. 
 
-logo/branding ideas
+logo/branding stuff
+buy a domain (keaglin.com would prolly work)
 ~ is where the heart is
 ~/kevon
 
