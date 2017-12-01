@@ -25,8 +25,13 @@ footer {
   align-items: flex-end;
   position: relative;
   bottom: 0;
-  
 }
+
+#about, #work, #contact {
+  min-height: 100vh;
+  text-align: center;
+}
+
 main {
   min-width: 100%;
   display: flex;
@@ -85,6 +90,7 @@ a {
 a:hover {
   color: white;
   background: black;
+  min-height: 40px;
 }
 
 nav a {
