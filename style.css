@@ -5,13 +5,25 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  /* min-width: 100%; */
+  min-height: 100vh;
+  /* font-family: "Zilla Slab Highlight", monospace;*/
+    /* could maybe be used in a few select places; nah */
+  font-family: "VT323", monospace;
+  font-size: 20px;
+    /* this is a really good font with the background I think */
+  /* font-family: "Special Elite", monospace; */
+    /* a lil messy, this one is also not bad, might rate behind the previous? */
+  /* font-family: "Press Start 2P", monospace; */
+    /* about as good (maybe better) than the last really good fit, a little less easy to read */
+  /* font-family: "Cutive Mono", monospace; */
+    /* very readable and clean */
 }
 
 footer {
   min-width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
 }
 main {
   min-width: 100%;
@@ -22,12 +34,24 @@ main {
 
 .hero {
   /* max-width: 100%; */
-  background: url(https://78.media.tumblr.com/5c825f938d00c69b2f5dfe6ea2e97453/tumblr_ooj5u2rpF11s32c21o1_500.gif);
-  background-position: center;
-  /* background-size: */
+  background: url(img/rainy-cafe.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
   color: rgb(226, 226, 226);
 }
 
-nav {
-  display: inline-flex;
+.sticky {
+  /* display: flex;
+  align-items: flex-end; */
+  align-self: flex-end;
 }
+
+.active {
+  min-height: 100vh;
+}
+
+/* ul.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+} */
