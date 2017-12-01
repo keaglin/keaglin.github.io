@@ -1,22 +1,21 @@
 body {
   /* background-color: rgb(35, 185, 110); */
   margin: 0;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   min-height: 100vh;
-  /* font-family: "Zilla Slab Highlight", monospace;*/
-    /* could maybe be used in a few select places; nah */
-  font-family: "VT323", monospace;
+  /* font-family: "VT323", monospace; */
   font-size: 20px;
     /* this is a really good font with the background I think */
-  /* font-family: "Special Elite", monospace; */
-    /* a lil messy, this one is also not bad, might rate behind the previous? */
+  font-family: "Special Elite", monospace;
+    /* typewriter look, more character than Cutive, a lil messy, this one is also not bad, might rate behind the previous? */
   /* font-family: "Press Start 2P", monospace; */
-    /* about as good (maybe better) than the last really good fit, a little less easy to read */
+    /* more character; does not style my heart; about as good (maybe better) than the last really good fit, a little less easy to read */
   /* font-family: "Cutive Mono", monospace; */
-    /* very readable and clean */
+    /* very readable and clean, typewriter type */
+  position: relative;
 }
 
 footer {
@@ -24,12 +23,25 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  position: relative;
+  bottom: 0;
+  
 }
 main {
   min-width: 100%;
   display: flex;
   flex-direction: column;
   /* flex-basis: 100%; */
+}
+
+header {
+  /* display: flex;
+  align-content: flex-end; */
+  min-width: 100%;
+}
+
+nav {
+  align-self: flex-end;
 }
 
 .hero {
@@ -41,17 +53,60 @@ main {
 }
 
 .sticky {
-  /* display: flex;
-  align-items: flex-end; */
-  align-self: flex-end;
+  /* display: flex; */
+  /* align-items: flex-end; */
+  /* align-self: flex-end; */
+  position: fixed;
+  bottom: 0;
 }
 
 .active {
   min-height: 100vh;
 }
 
-/* ul.navigation {
-  width: 100%;
+nav ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-basis: 25%;
+  color: white;
+  background: rgba(0, 0, 0, 0.651);
+  margin: 0;
+  padding: 0;
+  min-height: 60px;
+}
+
+a {
+  text-decoration-style: dotted; 
+  color: black;
+  background: rgb(216, 216, 129);
+}
+
+a:hover {
+  color: white;
+  background: black;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  background: none;
+}
+nav a:hover {
+  color: black;
+  background: rgb(216, 216, 129);
+}
+/* nav li:hover {
+  color: black;
+  background: rgb(216, 216, 129);
 } */
+ul {
+  list-style: none;
+}
+
+section.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
