@@ -16,6 +16,7 @@ body {
   /* font-family: "Cutive Mono", monospace; */
     /* very readable and clean, typewriter type */
   position: relative;
+  max-width: 100%;
 }
 
 footer {
