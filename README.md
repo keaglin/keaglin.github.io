@@ -1,4 +1,4 @@
-# Kevon Eaglin Portfolio Site
+# Kevon Eaglin's Portfolio Site
 ### Handmade using
   - HTML
   - CSS
