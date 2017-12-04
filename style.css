@@ -1,3 +1,4 @@
+/* @import url("bulma.css"); */
 body {
   /* background-color: rgb(35, 185, 110); */
   margin: 0;
@@ -131,4 +132,4 @@ section.hero p {
   background: rgba(0, 0, 0, 0.55);
   padding: 15px 10px 0;
   margin: 0;
-}
+} 
