@@ -27,6 +27,12 @@ footer {
   position: relative;
   bottom: 0;
 }
+footer li {
+  margin: 0;
+  padding-bottom: 2px;
+  /* padding-top: 5px; */
+  /* background: rgb(216, 216, 129); */
+}
 
 #about, #work, #contact {
   min-height: 100vh;
@@ -109,6 +115,7 @@ nav a:hover {
 } */
 ul {
   list-style: none;
+  margin: 0;
 }
 
 section.hero {

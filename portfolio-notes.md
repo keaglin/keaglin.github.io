@@ -42,3 +42,9 @@ style a tags
   - want them to be uppercase
 headings
   - either 8 bit or typewriter style font with black background
+
+format ya form
+
+
+hero p
+- put it inside another section; flex-start that section, stretch it, min-width: 100%, give IT the translucent background then position its child element (the p with your text)
