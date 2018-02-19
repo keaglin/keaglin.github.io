@@ -127,7 +127,7 @@ img.screenshot {
   border: solid 2px;
 }
 
-div > p {
+div.screenshot-container > p {
   display: inline-block;
 }
 
