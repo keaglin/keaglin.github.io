@@ -5,6 +5,9 @@ body {
   font-family: "Special Elite", monospace;
   position: relative;
   max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 footer {
@@ -27,8 +30,8 @@ footer li {
 
 main {
   min-width: 100%;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 header {
@@ -105,3 +108,27 @@ iframe {
   display: block;
   margin: 0 auto;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img.screenshot {
+  max-width: 33%;
+  max-height: 25%;
+}
+
+.screenshot-container {
+  /* max-height: 33%;
+  display: flex;
+  justify-content: space-around; */
+  border: solid 2px;
+}
+
+div > p {
+  display: inline-block;
+}
+
+/* a > img  */
