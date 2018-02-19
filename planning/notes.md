@@ -8,4 +8,5 @@ Materialize
 # Other Stuff to Deal With
 Footer  
 Dim Hero gif  
-Maybe darken background to continue the 'dark'/'lofi' theme?
+Maybe darken background to continue the 'dark'/'lofi' theme?  
+Contact form  
