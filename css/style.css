@@ -1,3 +1,4 @@
+/* CUSTOM CSS START */
 body {
   margin: 0;
   min-height: 100vh;
@@ -39,7 +40,7 @@ header {
 }
 
 .hero {
-  background: url(img/rainy-cafe.gif);
+  background: url(../img/rainy-cafe.gif);
   background-size: cover;
   background-repeat: no-repeat;
   color: rgb(226, 226, 226);
@@ -54,7 +55,7 @@ header {
   min-height: 100vh;
 }
 
-nav ul {
+nav.custom-nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -63,6 +64,7 @@ nav ul {
   margin: 0;
   padding: 0;
   min-height: 60px;
+  background: rgba(0,0,0,0) !important;
 }
 
 a {
@@ -77,12 +79,12 @@ a:hover {
   min-height: 40px;
 }
 
-nav a {
+nav.custom-nav a {
   color: white;
   text-decoration: none;
   background: none;
 }
-nav a:hover {
+nav.custom-nav a:hover {
   color: black;
   background: rgb(216, 216, 129);
 }
@@ -132,3 +134,4 @@ div.screenshot-container > p {
 }
 
 /* a > img  */
+/* CUSTOM CSS END */
