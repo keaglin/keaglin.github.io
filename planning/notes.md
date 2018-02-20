@@ -10,3 +10,10 @@ Footer
 Dim Hero gif  
 Maybe darken background to continue the 'dark'/'lofi' theme?  
 Contact form  
+
+
+# Thoughts  
+Make it a React app    
+render everything on top of the gif/make the gif the background
+Carousel for skills AND projects?
+Modal for contact form?

@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background: lightslategrey;
 }
 
 footer {
@@ -114,7 +115,7 @@ iframe {
 section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 img.screenshot {
