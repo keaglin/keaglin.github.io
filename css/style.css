@@ -91,7 +91,7 @@ nav ul {
   min-height: 60px;
 }
 
-a > i {
+i {
   color: white;
   background: none !important;
 }
