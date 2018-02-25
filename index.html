@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kevon Eaglin</title>
   <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/materialize.css">
   <!-- Compiled and minified JavaScript -->
   <script src="js/materialize.min.js" defer></script>
   <script src="js/script.js" defer></script>
@@ -14,116 +14,101 @@
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-  <header class="sticky">
-    <nav class="custom-nav">
-      <ul>
-        <li><a href="#about">about</a></li>
-        <li><a href="#work">work</a></li>
-        <li><a href="#resume">resume</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="hero active">
-      <p>Hi! I'm Kevon. I am an intellectually curious problem-solver with excellent communication skills and a creative mindset. My penchant for helping others combined with my natural leadership ability helps bring out the best in my colleagues and bring innovative ideas to fruition. 
-        Curious? <a href="#about">Read on...</a></p>
-    </section>
-    <section id="about">
-      <h1>more about me</h1>
-      <div>
-        <h3>stuff I know</h3>
-        <p>Languages/Frameworks</p>
-        React
-        JavaScript
-        Rails
-        NodeJS
-        ExpressJS
-        Ruby
-        SQL
-        JSON/AJAX
-        HTML
-        CSS
-        jQuery
-        <p>Tools/Methods</p>
-        PostgreSQL
-        REST/APIs
-        Mongoose
-        Test Driven Development
-        Git/GitHub
-        Adobe CS
-        MongoDB
-        <p>Soft Skills</p>
-        Leadership
-        Teaching
-        Customer Service
-      </div>
-      <div>
-        <h3>stuff you might not know <small>(about me)</small></h3>
+  <div class="container">
+    <header class="sticky">
+      <nav>
         <ul>
-          <li>Born in: Louisiana</li>
-          <li>Favorite anime: Bleach (and yes, I like Ichigo. OP and all.)</li>
-          <li>Favorite sport: Basketball (but I don't keep up with it.)</li>
-          <li>If I could be anything besides a programmer, what would it be? <small>TRICK QUESTION!</small></li>
+          <li><a href="#top">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#work">work</a></li>
+          <li><a href="#contact">contact</a></li>
+          <!-- <li><a href="https://medium.com/@keaglin">blog</a></li> -->
         </ul>
-      </div>
-    </section>
-    <section id="work">
-      <h1>what kind of stuff do I do? let's see!</h1>
-      <!-- This would be a great place for like a carousel -->
-      <h3>Totally adding a carousel here. Imagine projects.</h3>
-      <p>Projects... as far as the eye can see.</p>
-      <!-- <div class="screenshot-container">
-        <img class="screenshot" src="./img/p3-litswap.png" alt="LitSwap!" />
-        <p>Short blurb</p>
-      </div>
-      <div class="screenshot-container">
-        <img class="screenshot" src="./img/p2-familybook.png" alt="Johnson-Jones Family Book" />
-        <p>blurb about Johnson-Jones proj</p>
-      </div>
-      <div class="screenshot-container">
-        <img class="screenshot" src="./img/p1-hanoi.png" alt="Tower of Hanoi" />
-        <p>Tower blurb</p> -->
-      </div>
-    </section>
-    <section id="resume">
-      <h1>resume</h1>
-      <iframe src="https://docs.google.com/viewer?srcid=165tli4FAXgu1rRj9BMeCkgSJbwscertm&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="700" height="500px"></iframe>
-    </section>
-    <section id="contact">
-      <h1>get in touch!</h1>
-      <p>I'd love to hear about interesting opportunities you think I might be a fit for.</p>
-      <p><small>Flattery is also always welcome!</small></p>
-      <form>
-        <input type="text" placeholder="What's your name, again?">
-        <input type="email" placeholder="Awesome! What's your email?">
-        <input type="text" placeholder=" Now that we've done introductions, what's up?" style="height: 60px">
-        <input type="submit">
-      </form>
-    </section>
-  </main>
-  <footer>
-    <section>
-      <ul class="nav">
-        <li><a href="#about">about</a></li>
-        <li><a href="#work">work</a></li>
-        <li><a href="#resume">resume</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>
-    </section>
-    <section>
-      &copy; 2018 Kevon Eaglin
-      made with &hearts; in DC
-    </section>
-    <section>
-      <ul>
-        <li><a href="https://github.com/keaglin">Github</a></li>
-        <li><a href="https://twitter.com/keagl1n">Twitter</a></li>
-        <li><a href="https://linkedin.com/in/kevon">LinkedIn</a></li>
-        <li><a href="https://stackoverflow.com/users/3609037/keaglin">Stack Overflow</a></li>
-      </ul>
-    </section>
-    
-  </footer>
+      </nav>
+    </header>
+    <main>
+      <section id="top">
+      <!-- here we want the gif and some info -->
+        <p class="opening">Hi! I'm Kevon. I'm a stellar web developer trying to leave the world better than I found it. I do that through my <a href="#work">work</a> and my <a href="https://medium.com/@keaglin">writing</a>. 
+          Curious? <a href="#about">Read on...</a></p>
+      </section>
+      <section id="about">
+        <h1>more about me</h1>
+        <div>
+            <p>I am an intellectually curious problem-solver with excellent communication skills and a creative mindset. My penchant for helping others combined with my natural leadership ability helps bring out the best in my colleagues and bring innovative ideas to fruition.</p>
+            <p>expertise</p>
+        </div>
+        <div>
+          <p>I'm versed in a lot of web tech. A few of my favorites are Ruby on Rails, React, and plain ol' Javascript. I also have experience with Test-driven development, NodeJS, MongoDB (and MongooseJS), ExpressJS and git.</p>
+        </div>
+        <p>personal trivia</p>
+        <!-- <div>
+            <i class="fab fa-github fa-5x"></i>
+            <i class="fab fa-twitter fa-5x"></i>
+            <i class="fab fa-medium fa-5x"></i>
+            <i class="fab fa-stack-overflow fa-5x"></i>
+        </div> -->
+          <!-- use FA icons here -->
+        <div>
+          <a href="https://github.com/keaglin"><i class="fab fa-github fa-3x"></i></a>
+          <a href="https://twitter.com/keagl1n"><i class="fab fa-twitter fa-3x"></i></a>
+          <a href="https://linkedin/in/kevon"><i class="fab fa-linkedin fa-3x"></i></a>
+          <a href="https://stackoverflow.com/users/3609037/keaglin"><i class="fab fa-stack-overflow fa-3x"></i></a>
+        </div>
+          <!-- <a href="https://github.com/keaglin">Github</a>
+          <a href="https://twitter.com/keagl1n">Twitter</a>
+          <a href="https://medium.com/@keaglin">Medium</a>
+          <a href="https://stackoverflow.com/users/3609037/keaglin">Stack Overflow</a> -->
+      </section>
+      <section id="work">
+        <h1>what kind of stuff do I do? let's see!</h1>
+        Projects go here
+        <!-- 
+          Maybe a screenshot of some small stuff from the program so far
+          Memory card game
+          iPhone mockup out of literally nothing
+        -->
+      </section>
+      <section id="contact">
+        <h1>get in touch!</h1>
+        <p>I'd love to hear about interesting projects or jobs you think I might be a fit for.</p>
+        <p><small>Flattery is also always welcome!</small></p>
+        <form>
+          <input type="text" placeholder="What's your name, again?">
+          <input type="email" placeholder="Awesome! What's your email?">
+          <input type="text" placeholder=" Now that we've done introductions, what's up?" style="height: 60px">
+          <input type="submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <!-- should this wrapped in a nav element? -->
+        <ul class="nav">
+          <li><a href="#about">about</a></li>
+          <li><a href="#work">work</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li><a href="https://medium.com/@keaglin">blog</a></li>
+        </ul>
+      </section>
+      <section>
+        &copy; 2018 Kevon Eaglin
+        made with &hearts; in DC
+      </section>
+      <section>
+        <a href="https://github.com/keaglin">Github</a>
+        <a href="https://twitter.com/keagl1n">Twitter</a>
+        <a href="https://medium.com/@keaglin">Medium</a>
+        <a href="https://stackoverflow.com/users/3609037/keaglin">Stack Overflow</a>
+      </section>
+      
+      <!-- another social section -->
+      <!--
+        mini nav
+        &copy; 2017 me
+        made with &heart; in DC
+      -->
+    </footer>
+  </div>
 </body>
 </html>

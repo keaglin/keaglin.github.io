@@ -1,15 +1,15 @@
-/* CUSTOM CSS START */
+/* @import url("bulma.css"); */
 body {
   margin: 0;
-  min-height: 100vh;
   font-size: 20px;
   font-family: "Special Elite", monospace;
-  position: relative;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: lightslategrey;
+  max-width: 100vw;
+  /* background: rgba(0, 0, 0, 0); */
+}
+
+.opening {
+  font-family: "Special Elite", monospace;
+  font-size: 20px;
 }
 
 footer {
@@ -17,7 +17,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  position: relative;
+  /* position: relative; */
   bottom: 0;
 }
 footer li {
@@ -25,26 +25,49 @@ footer li {
   padding-bottom: 2px;
 }
 
-#about, #work, #contact, #resume {
+#top, #about, #work, #contact {
   min-height: 100vh;
   text-align: center;
 }
 
 main {
   min-width: 100%;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   min-width: 100%;
 }
 
-.hero {
-  background: url(../img/rainy-cafe.gif);
+/* nav {
+  align-self: flex-end;
+} */
+
+/* .hero {
+  background: url(img/rainy-cafe.gif);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment:fixed;
   color: rgb(226, 226, 226);
+} */
+div.container {
+  /* position: absolute; */
+  min-height: 100vh;
+  min-width: 100vw;
+  background: url(../img/rainy-cafe.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgb(226, 226, 226);
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  /* overflow:scroll; */
+  /* margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0; */
 }
 
 .sticky {
@@ -56,16 +79,16 @@ header {
   min-height: 100vh;
 }
 
-nav.custom-nav ul {
+nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-basis: 25%;
   color: white;
+  /* background: rgb(0, 0, 0); */
   margin: 0;
   padding: 0;
   min-height: 60px;
-  background: rgba(0,0,0,0) !important;
 }
 
 a {
@@ -80,16 +103,19 @@ a:hover {
   min-height: 40px;
 }
 
-nav.custom-nav a {
+nav a {
   color: white;
   text-decoration: none;
   background: none;
 }
-nav.custom-nav a:hover {
+nav a:hover {
   color: black;
   background: rgb(216, 216, 129);
 }
-
+/* nav li:hover {
+  color: black;
+  background: rgb(216, 216, 129);
+} */
 ul {
   list-style: none;
   margin: 0;
@@ -97,7 +123,10 @@ ul {
 
 section.hero {
   display: flex;
+  /* flex-direction: column; */
+  /* justify-content: flex-start; */
   align-content: space-around;
+  /* background: rgba(0, 0, 0, 0.20); */
 }
 
 section.hero p {
@@ -107,32 +136,14 @@ section.hero p {
   margin: 0;
 } 
 
-iframe {
-  display: block;
-  margin: 0 auto;
+p {
+  font-family: 'Roboto Condensed';
 }
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+svg {
+  background: white;
+  color: black;
 }
-
-img.screenshot {
-  max-width: 33%;
-  max-height: 25%;
+svg:hover{
+  color: white;
+  background: black;
 }
-
-.screenshot-container {
-  /* max-height: 33%;
-  display: flex;
-  justify-content: space-around; */
-  border: solid 2px;
-}
-
-div.screenshot-container > p {
-  display: inline-block;
-}
-
-/* a > img  */
-/* CUSTOM CSS END */

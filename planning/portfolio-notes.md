@@ -15,7 +15,7 @@ buy a domain (keaglin.com would prolly work)
 ~ is where the heart is
 ~/kevon
 
-I actually want my nav UNDER my hero gif then sticky at the top when I scroll but I don't know how to do that yet and I should totoally focus on base functionality for the moment
+I actually want my nav UNDER my hero gif then sticky at the top when I scroll but I don't know how to do that yet and I should totally focus on base functionality for the moment
 
 
 TECHNICAL NOTES
