@@ -25,7 +25,7 @@ footer li {
   padding-bottom: 2px;
 }
 
-#top, #about, #work, #contact {
+#top, #about, #work, #contact, #resume {
   min-height: 100vh;
   text-align: center;
 }
@@ -91,6 +91,11 @@ nav ul {
   min-height: 60px;
 }
 
+a > i {
+  color: white;
+  background: none !important;
+}
+
 a {
   text-decoration-style: dotted; 
   color: black;
@@ -139,11 +144,20 @@ section.hero p {
 p {
   font-family: 'Roboto Condensed';
 }
+
 svg {
   background: white;
   color: black;
 }
+
 svg:hover{
   color: white;
   background: black;
+}
+
+embed {
+  display: block;
+  margin: 0 auto;
+  width: 60vw;
+  height: 70vh;
 }
