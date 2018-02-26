@@ -6,13 +6,13 @@
 body {
   margin: 0;
   font-size: 20px;
-  /* font-family: "Special Elite", monospace; */
+  font-family: "MaisonNeue-Book", sans-serif;
   /* min-width: 100vw; */
   /* background: rgba(0, 0, 0, 0); */
 }
 
 .opening {
-  font-family: "Special Elite", monospace;
+  font-family: "MaisonNeue-Mono", monospace;
   font-size: 20px;
 }
 
@@ -84,7 +84,6 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   flex-basis: 25%;
-  color: white;
   /* background: rgb(0, 0, 0); */
   margin: 0;
   padding: 0;
@@ -103,20 +102,17 @@ a:hover {
   background: black;
   min-height: 40px;
 }
-
+nav {
+  background: rgba(216,216,129, 0.55);
+  font-family: "MaisonNeue-Mono", monospace;
+  font-size: 28px;
+}
 nav a {
-  color: white;
+  color: black !important;
   text-decoration: none;
   background: none;
 }
-nav a:hover {
-  color: black;
-  background: rgb(216, 216, 129);
-}
-/* nav li:hover {
-  color: black;
-  background: rgb(216, 216, 129);
-} */
+
 ul {
   list-style: none;
   margin: 0;
@@ -136,10 +132,6 @@ section.hero p {
   padding: 15px 10px 0;
   margin: 0;
 } 
-
-p {
-  font-family: 'Roboto Condensed';
-}
 
 svg {
   background: white;

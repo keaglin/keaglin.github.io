@@ -118,12 +118,27 @@
         <h1>get in touch!</h1>
         <p>I'd love to hear about interesting projects or jobs you think I might be a fit for.</p>
         <p><small>Flattery is also always welcome!</small></p>
-        <form>
-          <input type="text"  placeholder="What's your name, again?">
-          <input type="email" placeholder="Awesome! What's your email?">
-          <input type="text"  placeholder="Now that we've done introductions, what's up?" style="height: 60px">
-          <input type="submit">
-        </form>
+
+
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="What's your name, again?" id="first_name" type="text" class="validate">
+                <label for="name">Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="email" type="email" class="validate" placeholder="Awesome! What's your email?">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="message" type="text" placeholder="Now that we've done introductions, what's up?">
+                <label for="message">Message</label>
+              </div>
+              <input type="submit" class="btn">
+            </div>
       </section>
     </main>
     <footer>
