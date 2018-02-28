@@ -17,3 +17,6 @@ Make it a React app (negative)
 render everything on top of the gif/make the gif the background--DONE  
 Carousel for skills AND projects? (in progress/next up)  
 Modal for contact form? (Not at the moment)
+
+UPDATED ABOUT ME SECTION TO NOT JUST BE A SUPER LONG LIST--DONE!  
+Need to beautify 'about me'  
