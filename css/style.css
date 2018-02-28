@@ -153,11 +153,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* label focus color */
 .input-field input[type=text]:focus + label {
-  color: #fff;
+  color: #26a69a !important;
 }
 /* label underline focus color */
 .input-field input[type=text]:focus {
-  border-bottom: 1px solid #01f !important;
+  border-bottom: 1px solid #26a69a !important;
   box-shadow: 0 1px 0 0 #000;
 }
 /* valid color */
@@ -172,5 +172,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* icon prefix focus color */
 .input-field .prefix.active {
-  color: #fff;
+  color: #26a69a !important;
+}
+
+/* Textarea form styling */
+/* label focus color */
+.input-field textarea:focus + label {
+  color: #26a69a !important;
+}
+/* label underline focus color */
+.input-field textarea:focus {
+  border-bottom: 1px solid #26a69a !important;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+.btn {
+  background-color: #26a69a;
+}
+
+.btn:focus {
+  background-color: #00897b;
+}
+
+.user-input {
+  color: white;
 }
