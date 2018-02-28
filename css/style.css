@@ -19,10 +19,10 @@ body {
 footer {
   min-width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
-  /* position: relative; */
-  bottom: 0;
+  position: relative;
+  bottom: 65px;
 }
 footer li {
   margin: 0;
@@ -56,8 +56,6 @@ header {
   color: rgb(226, 226, 226);
 } */
 div.container {
-  /* position: absolute; */
-  /* min-height: 100vh; */
   min-width: 100%;
   background: url(../img/rainy-cafe-copy.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -68,15 +66,12 @@ div.container {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
 -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
   overflow: hidden;
-  /* margin: 0;
-  padding: 0;
-  top: 0;
-  left: 0; */
 }
 
 .sticky {
   position: fixed;
   bottom: 0;
+  
 }
 
 nav ul {
@@ -84,7 +79,6 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   flex-basis: 25%;
-  /* background: rgb(0, 0, 0); */
   margin: 0;
   padding: 0;
   min-height: 60px;
@@ -148,4 +142,35 @@ embed {
   margin: 0 auto;
   width: 60vw;
   height: 70vh;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "MaisonNeue-Mono", monospace;
+}
+
+/* label color */
+.input-field label {
+  color: #fff;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #fff;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #01f !important;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #fff;
 }

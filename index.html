@@ -8,6 +8,10 @@
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="css/materialize.css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous" defer></script>
   <!-- Compiled and minified JavaScript -->
   <script src="js/materialize.min.js" defer></script>
   <script src="js/script.js" defer></script>
@@ -24,7 +28,6 @@
           <li><a href="#work">work</a></li>
           <li><a href="#resume">resume</a></li>
           <li><a href="#contact">contact</a></li>
-          <!-- <li><a href="https://medium.com/@keaglin">blog</a></li> -->
         </ul>
       </nav>
     </header>
@@ -79,17 +82,6 @@
               <li>If I could be anything besides a programmer, what would it be? <small>TRICK QUESTION!</small></li>
             </ul>
           </div>
-          <!-- use FA icons here -->
-        <!-- <div>
-          <a href="https://github.com/keaglin"><i class="fab fa-github fa-3x"></i></a>
-          <a href="https://twitter.com/keagl1n"><i class="fab fa-twitter fa-3x"></i></a>
-          <a href="https://linkedin/in/kevon"><i class="fab fa-linkedin fa-3x"></i></a>
-          <a href="https://stackoverflow.com/users/3609037/keaglin"><i class="fab fa-stack-overflow fa-3x"></i></a>
-        </div> -->
-          <!-- <a href="https://github.com/keaglin">Github</a>
-          <a href="https://twitter.com/keagl1n">Twitter</a>
-          <a href="https://medium.com/@keaglin">Medium</a>
-          <a href="https://stackoverflow.com/users/3609037/keaglin">Stack Overflow</a> -->
       </section>
       <section id="work">
         <!-- Talk about how you work, who you wanna work with, where you wanna go next -->
@@ -97,18 +89,6 @@
         <!-- This would be a great place for like a carousel -->
         <h3>Totally adding a carousel here. Imagine projects.</h3>
         <p>Projects... as far as the eye can see.</p>
-        <!-- <div class="screenshot-container">
-          <img class="screenshot" src="./img/p3-litswap.png" alt="LitSwap!" />
-          <p>Short blurb</p>
-        </div>
-        <div class="screenshot-container">
-          <img class="screenshot" src="./img/p2-familybook.png" alt="Johnson-Jones Family Book" />
-          <p>blurb about Johnson-Jones proj</p>
-        </div>
-        <div class="screenshot-container">
-          <img class="screenshot" src="./img/p1-hanoi.png" alt="Tower of Hanoi" />
-          <p>Tower blurb</p> -->
-        <!-- </div> -->
       </section>
       <section id="resume">
           <h1>resume</h1>
@@ -116,25 +96,26 @@
         </section>
       <section id="contact">
         <h1>get in touch!</h1>
-        <p>I'd love to hear about interesting projects or jobs you think I might be a fit for.</p>
+        <p>I'd love to hear about interesting opportunities you think I might be a fit for.</p>
         <p><small>Flattery is also always welcome!</small></p>
-
-
         <div class="row">
           <form class="col s12">
             <div class="row">
               <div class="input-field col s6">
-                <input placeholder="What's your name, again?" id="first_name" type="text" class="validate">
+                <i class="far fa-address-card prefix"></i>
+                <input id="first_name" type="text"> <!-- placeholder="What's your name, again?"  -->
                 <label for="name">Name</label>
               </div>
               <div class="input-field col s6">
-                <input id="email" type="email" class="validate" placeholder="Awesome! What's your email?">
+                  <i class="far fa-envelope prefix"></i>
+                <input id="email" type="text"> <!-- placeholder="Awesome! What's your email?"> -->
                 <label for="email">Email</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-                <input id="message" type="text" placeholder="Now that we've done introductions, what's up?">
+                <i class="fas fa-pencil-alt prefix"></i>
+                <textarea id="message" class="materialize-textarea"></textarea> <!-- placeholder="Now that we've done introductions, what's up?" -->
                 <label for="message">Message</label>
               </div>
               <input type="submit" class="btn">
@@ -142,7 +123,7 @@
       </section>
     </main>
     <footer>
-      <section>
+      <!-- <section>
         <ul class="nav">
           <li><a href="#top">home</a></li>
           <li><a href="#about">about</a></li>
@@ -150,7 +131,7 @@
           <li><a href="#resume">resume</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
-      </section>
+      </section> -->
       <section>
         &copy; 2018 Kevon Eaglin
         made with &hearts; in DC
