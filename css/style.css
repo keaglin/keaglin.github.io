@@ -197,3 +197,13 @@ h1, h2, h3, h4, h5, h6 {
 .user-input {
   color: white;
 }
+
+.skills {
+  margin: 0 auto;
+}
+
+.collapsible-header {
+  font-family: "MaisonNeue-Mono", monospace;
+  background-color: rgb(216, 216, 129);
+  color: #0f0f0f !important;
+}

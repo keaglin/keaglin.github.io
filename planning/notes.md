@@ -2,7 +2,7 @@
 ------
 Materialize
 ---
-- carousel to display projects (where do descriptions go? on hover? next slide?)  
+- carousel to display projects (where do descriptions go? on hover? next slide?) (in progress/next up)  
 - pushpin for having nav on the bottom at page load then have it stick to the top (on hold)  
 
 # Other Stuff to Deal With
