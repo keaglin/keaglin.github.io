@@ -22,7 +22,7 @@ footer {
   justify-content: space-between;
   align-items: flex-end;
   position: relative;
-  bottom: 65px;
+  bottom: 0;
 }
 footer li {
   margin: 0;
@@ -71,6 +71,7 @@ div.container {
 .sticky {
   position: fixed;
   bottom: 0;
+  z-index: 1;
   
 }
 
@@ -206,4 +207,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "MaisonNeue-Mono", monospace;
   background-color: rgb(216, 216, 129);
   color: #0f0f0f !important;
+}
+
+.card {
+  /* background: none !important; */
+  color: rgb(216, 216, 129) !important;
+  z-index: 0;
 }
