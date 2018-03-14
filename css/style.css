@@ -1,4 +1,21 @@
 /* @import url("bulma.css"); */
+@font-face {
+	font-family: 'MasionNeue-Book';
+	src: 
+		local('MaisonNeue-Book'),
+		local('MaisonNeue Book'),
+		url('fonts/maisonneuebook.ttf') 
+		format('truetype');
+}
+@font-face {
+	font-family: 'MasionNeue-mono';
+	src: 
+		local('MaisonNeue-Mono'),
+		local('MaisonNeue Mono'),
+		url('fonts/maisonneuemono.ttf') 
+		format('truetype');
+}
+
 * {
   box-sizing: border-box;
 }
