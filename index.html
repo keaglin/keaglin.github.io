@@ -232,7 +232,8 @@
         <p>I'd love to hear about interesting opportunities you think I might be a fit for.</p>
         <p><small>Flattery is also always welcome!</small></p>
         <div class="row">
-          <form class="col s12">
+          <form class="col s12" action="https://formspree.io/contact@keaglin.com"
+          method="POST">
             <div class="row">
               <div class="input-field col s6">
                 <i class="far fa-address-card prefix"></i>
@@ -241,7 +242,7 @@
               </div>
               <div class="input-field col s6">
                   <i class="far fa-envelope prefix"></i>
-                <input id="email" type="text" class="user-input" placeholder="Awesome! What's your email?"> 
+                <input id="email" type="text" name="_replyto" class="user-input" placeholder="Awesome! What's your email?"> 
                 <label for="email">Email</label>
               </div>
             </div>
@@ -251,7 +252,7 @@
                 <textarea id="message" class="materialize-textarea user-input" placeholder="Now that we've done introductions, what's up?"></textarea>
                 <label for="message">Message</label>
               </div>
-              <input type="submit" class="btn">
+              <button type="submit" class="btn"><i class="far fa-paper-plane prefix"></i> Send</button>
             </div>
             <footer>
               <section>&copy; 2018 Kevon Eaglin.</section>
