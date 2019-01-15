@@ -1,3 +1,3 @@
-# Kevon Eaglin's Portfolio Site
+# Kevon's Portfolio Site
 
 ## Under Construction 🛠
