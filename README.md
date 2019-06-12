@@ -1,3 +1,4 @@
 # Kevon's Portfolio Site
 
-## Under Construction 🛠
+### Under Construction 🛠  
+but contains basic contact info
